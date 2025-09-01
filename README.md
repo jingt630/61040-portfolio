@@ -1,5 +1,5 @@
 # Template Portfolio
-This will be your portfolio website. Use this as a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) and customize it to your own tastes. We gave you a starting point with a space to describe yourself and a link to where your assignment 1 file can be. You can see this page live with GitHub Pages [here](https://61040-fa25.github.io/template-portfolio/)!
+This will be your portfolio repository. Use this as a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) and customize it to your own tastes. We gave you a starting point with a space to describe yourself and a link to where your assignment 1 file can be.
 
 # About Me
 *My name is Amber Horvath, I'm a postdoctoral associate researching code comprehension interventions, it's nice to meet you! [Here is a link to my real website.](https://amberhorvath.com)
