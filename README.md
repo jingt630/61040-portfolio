@@ -4,5 +4,6 @@ This will be your portfolio repository. Use this as a [template repository](http
 # About Me
 *My name is Jing Tan, I'm a junior at MIT majoring in 6-3 (Computer Science and Engineer).
 
+![mit logo](https://media.giphy.com/avatars/mit/LU96GcglKO14.png)
 # Table of Contents
 [Link to Assignment 1](assignments/assignment1.md)
