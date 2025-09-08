@@ -1,7 +1,7 @@
 # Assignment 1
 # Domains:
 
-1. Gaming: I like gaming in both PC and mobile wise, sometimes with a controller. I've played many different types of games like MOBA, gacha, singleplayer open world, multiplayer, and etc. Some games need to be purchased and some are free but with in-game purchases. The one-time purchase games usually cost a lot but have amazing graphics, and the free games are mostly setup to encourage and promoting in-gaming purchases. For games that has an ending or set plot, I'm not really into replaying it again. For multiplayer games that doesn't have an ending like league, it's addictive to play but only with friends.
+1. **Gaming:** --- I like gaming in both PC and mobile wise, sometimes with a controller. I've played many different types of games like MOBA, gacha, singleplayer open world, multiplayer, and etc. Some games need to be purchased and some are free but with in-game purchases. The one-time purchase games usually cost a lot but have amazing graphics, and the free games are mostly setup to encourage and promoting in-gaming purchases. For games that has an ending or set plot, I'm not really into replaying it again. For multiplayer games that doesn't have an ending like league, it's addictive to play but only with friends.
 
 
 - Tracking Game Spent: Some games have in-game purchases and some players would make such purchases. I am also one of those money spending players for skins or characters. Most games that I've seen have weekly/monthly subscriptions, gacha (whether for characters/weapon/skins/etc), direct purchase, and etc. With game promotion, the desire of wanting things in game, and the lure of deals, it's hard to resist not spending anything for the game you love.
@@ -179,21 +179,3 @@ Exlusion Reason: Users can easily search up pictures of the location on spot and
 9. Working Remotely
 
 10. Grocery Shopping
-
-
-
-
-# Brainstorm:-------------------------------
-1. Push notification for email follow up:
-Sometimes we see the notification on our phone and then we swiped it after reading it, thinking that we will come back to it later. However, because we push the notification away, if we don't check outlook, we would forget about it at the back of our head.
-
-2. Game spending or just showing money spent in each app in total??
-as a reminder or bring guilt if the user want to save money
-Games itself won't show how much you spent on them in total in order to keep the cash coming. We also don't realize how much we have spent, especially for gacha systems.
-
-3. Combine and purchase with others to fulfill free shipping or split shipping fees for MIT students (same dorms or neighbor dorms) in terms of either delivery or uber eats
-
-However, most people have amazon prime and people want to eat from different places at uber eats
-[拼好团]
-
-4.
