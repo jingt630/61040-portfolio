@@ -2,9 +2,6 @@
 ## Domains:
 
 1. **Gaming:**
-
-***
-
 I like gaming in both PC and mobile wise, sometimes with a controller. I've played many different types of games like MOBA, gacha, singleplayer open world, multiplayer, and etc. Some games need to be purchased and some are free but with in-game purchases. The one-time purchase games usually cost a lot but have amazing graphics, and the free games are mostly setup to encourage and promoting in-gaming purchases. For games that has an ending or set plot, I'm not really into replaying it again. For multiplayer games that doesn't have an ending like league, it's addictive to play but only with friends.
 
 ## Problem 1:
@@ -44,35 +41,42 @@ The transaction facilitators are not really affected since they are responsible 
 
 10. [Steam Feature as a comparable](https://www.gamespot.com/articles/steam-tool-lets-you-see-just-how-much-money-youve-spent/1100-6530884/) Steam already has a feature where it helps users to tally how much they had spent on steam, but it's well hidden. This feature is only limited to Steam and doesn't include other platform transactions.
 
-Features:
- - Total Spent Reminder: Displaying the total amount of money a user had spent so far on this current game right before they are planning to make another purchase, as well as the total amount across all of their games and platforms. This sets as a reminder to cool down the temptation of creating that purchase for the users to double think before hitting purchase.
+## Features:
+ - **Total Spent Reminder:** Displaying the total amount of money a user had spent so far on this current game right before they are planning to make another purchase, as well as the total amount across all of their games and platforms. This sets as a reminder to cool down the temptation of creating that purchase for the users to double think before hitting purchase.
 
- - Hard budget line: Users can setup to temporarily "freeze" their payment for a game after spending a total of the budget they have for themselves. This freezing feature should be setup by the user initially to help them cool off an impulse decision next time while they are still logical.
+ - **Hard budget line:** Users can setup to temporarily "freeze" their payment for a game after spending a total of the budget they have for themselves. This freezing feature should be setup by the user initially to help them cool off an impulse decision next time while they are still logical.
 
- - Post-purchase reflection nudges: Send really short notifications asking for a response from the user if the purchase they made some time ago is worth it. Once with some data of the user experience, keep sending/reminding them to become aware of long-term satisfaction with digital items, encouraging smarter choices.
+ - **Post-purchase reflection nudges:** Send really short notifications asking for a response from the user if the purchase they made some time ago is worth it. Once with some data of the user experience, keep sending/reminding them to become aware of long-term satisfaction with digital items, encouraging smarter choices.
 
 
-- Problem 2: Not being able to find anyone to game and talk to for multiplayer games when friends are not available. Some games require 2 or more player to even start and some offer bots.
+## Problem 2:
+Not being able to find anyone to game and talk to for multiplayer games when friends are not available. Some games require 2 or more player to even start and some offer bots.
+
 Exclusion Reason: Most multiplayer games have the feature of creating rooms and letting online players to join and game together.
 
-- Problem 3: Some parents are against their child gaming so much, and some players also realize that they are too addicted to the game where it cost some kind of issue in their life like sleeping late.
+## Problem 3:
+Some parents are against their child gaming so much, and some players also realize that they are too addicted to the game where it cost some kind of issue in their life like sleeping late.
+
 Exclusion reason: Parents can setup screen time; for players who think they are too addicted, I feel like software isn't enough to remind and discpline them. This could mostly be more of a personal discpline problem or personal choice.
 
-2. Listening and singing to Music
+2. **Listening and singing to Music**
 
-3. Gunpla Modeling
+3. **Gunpla Modeling**
 
-4. Watching medias from different countries: I'm into different medias produced by different countries, like c-drama,kpop, thai drama, japan shows, and anime. It's like a refresher to see and trying to understand culture differences. Due to copyrights, legal matters, or just promotional means, media resources are hard to acquire and understand. I often have to turn on vpns and browsing through different websites/platforms to find those media resources.
+4. **Watching medias from different countries:**
+I'm into different medias produced by different countries, like c-drama,kpop, thai drama, japan shows, and anime. It's like a refresher to see and trying to understand culture differences. Due to copyrights, legal matters, or just promotional means, media resources are hard to acquire and understand. I often have to turn on vpns and browsing through different websites/platforms to find those media resources.
 
-- Problem 1: Medias from different countries air at different platforms which may or may not be available in the US. Even when available, you would need to pay for the platform like Netflix. Videos on streaming platforms are also bounded by servers, where some videos are available in certain countries.
+## Problem 1:
+Medias from different countries air at different platforms which may or may not be available in the US. Even when available, you would need to pay for the platform like Netflix. Videos on streaming platforms are also bounded by servers, where some videos are available in certain countries.
 
 Exclusion Reason: Solving this would result in piracy and copyrights issues. The media companies setup those boundaries for their own protection and commerical reasons.
 
-- Auto Translate and Re-edit: When we are consuming medias in other languages, some of them are raw (not translated). People might be interested in wanting to fully understand the video besides from just visual cues. Even if we can conviently copy and paste directly into a translator, there are jokes, traditions, or idioms that people from other cultures won't understand. This would require some background knowledge or researching apart from direct translation. When media throw in these jokes, it would also mess up the translation from translators like google translator.
+## Problue 2:
+**Auto Translate and Re-edit:** When we are consuming medias in other languages, some of them are raw (not translated). People might be interested in wanting to fully understand the video besides from just visual cues. Even if we can conviently copy and paste directly into a translator, there are jokes, traditions, or idioms that people from other cultures won't understand. This would require some background knowledge or researching apart from direct translation. When media throw in these jokes, it would also mess up the translation from translators like google translator.
 
-Inclusion Reason: This seems like a promising problem that could be solve with AI text recognition to help with translation and culture explanation to speed up translation team productions. Text translation can be easily done, but now it's more about images and videos translation where more work and coordination are needed.
+<mark>Inclusion Reason:</mark> This seems like a promising problem that could be solve with AI text recognition to help with translation and culture explanation to speed up translation team productions. Text translation can be easily done, but now it's more about images and videos translation where more work and coordination are needed.
 
-Stakeholders:
+## Stakeholders:
 1. Direct users: Media consumers (not producers)
 Consumers are mostly affected by this problem because they are the one who can't understand and enjoy the foregin media.
 
@@ -82,7 +86,7 @@ The problem produces a job but has high workload for complex foreign media trans
 3. Media Creators: The original content creators of the media.
 Creators themselves have limited sources/time to translate their work when they are already creating them. Such limitation would at some level limit the global popularity of their work.
 
-Evidences:
+## Evidences:
 
 1. [Challenge of Machine Translation](https://www.sciencedirect.com/science/article/pii/S2589004224021035?utm_source=chatgpt.com) Machine translation often struggles with idiomatic expressions, metaphors, humor, and other culturally specific elements, as their meaning may not be directly translatable. Not to mention our problem includes text recognition from images.
 
@@ -104,28 +108,32 @@ Evidences:
 
 10. [Existence of Scalation](https://whatismanga.wordpress.com/2019/04/12/43-why-do-scanlations-persist/) Scalation still exist due to there always being a demand for quicker translation. Official translation are not keeping up with the pace of the demand of the consumers.
 
-Features:
+## Features:
 
-- AI text and context detection from images: Using AI to quickly help clean and redraw images/frames, localizing and translating the subtitles can speed up scalation productions. This not only benefits the end users by the speed of the production, but also content creators to publized their work globally.
+- **AI text and context detection from images:** Using AI to quickly help clean and redraw images/frames, localizing and translating the subtitles can speed up scalation productions. This not only benefits the end users by the speed of the production, but also content creators to publized their work globally.
 
-- Collaboration Mode: Allow translation teams and other editors to correct and suggest edits made by AI. This address the accuracy of using AI in localization and seeing the quality of the AI work since it's not the best yet in image processing.
+- **Collaboration Mode:** Allow translation teams and other editors to correct and suggest edits made by AI. This address the accuracy of using AI in localization and seeing the quality of the AI work since it's not the best yet in image processing.
 
-- Multi-layer and language Subtitles: A bonus feature for different kinds of end users who want to watch the content or also learn the foregin language/culture as they watch. Users can toggle what language subtitles or bilangual subtitles, and with AI, more languages can be translated and be translated to.
+- **Multi-layer and language Subtitles:** A bonus feature for different kinds of end users who want to watch the content or also learn the foregin language/culture as they watch. Users can toggle what language subtitles or bilangual subtitles, and with AI, more languages can be translated and be translated to.
 
-- Problem 3: There's multiple verisons of the same media depending on the area of the users. Medias in different country and platforms have their own set of rules that might result in cutting off some of the parts. Depending on the streaming platforms, some has bonus scenes or localized content.
+## Problem 3:
+There's multiple verisons of the same media depending on the area of the users. Medias in different country and platforms have their own set of rules that might result in cutting off some of the parts. Depending on the streaming platforms, some has bonus scenes or localized content.
 Exclusion Reason: The problem have to do with copyrights and the problem isn't serious enough or widespread enough. Most people can look for posts online that guides them where to access such medias.
 
-5. Traveling: I mostly travel to places where I know someone who's a local there or for school/event purposes only. When I want to travel to somewhere new with my friends, none of us really want to do the planning because it's really a hassel to look through different resources to plan the different parts of the trip: hotel, transportation, food, tourist attraction, and local attraction. Traveling with friends would also mean having tons of conditions and finding common grounds where everyone agrees on. I would love to travel more to new places without spending unreasonable prices and having to spend hours on searching/planning. Experiencing new things, even if challenges, are part of the traveling experience to me when traveling overseas.
+5. **Traveling:**
+I mostly travel to places where I know someone who's a local there or for school/event purposes only. When I want to travel to somewhere new with my friends, none of us really want to do the planning because it's really a hassel to look through different resources to plan the different parts of the trip: hotel, transportation, food, tourist attraction, and local attraction. Traveling with friends would also mean having tons of conditions and finding common grounds where everyone agrees on. I would love to travel more to new places without spending unreasonable prices and having to spend hours on searching/planning. Experiencing new things, even if challenges, are part of the traveling experience to me when traveling overseas.
 
-- Problem 1: The biggest hassel is having to look through hours and hours of resources to validate what we are expecting on the trip, whether it's the hotel quality or attraction expectation. There are indeed lots of platforms where people share their reviews, photos, and tips on certain places as well as booking websites. However, it's hard to organize all of the informations in one place for the user to see simulatenously to help them vision the trip schedule.
+## Problem 1:
+The biggest hassel is having to look through hours and hours of resources to validate what we are expecting on the trip, whether it's the hotel quality or attraction expectation. There are indeed lots of platforms where people share their reviews, photos, and tips on certain places as well as booking websites. However, it's hard to organize all of the informations in one place for the user to see simulatenously to help them vision the trip schedule.
 
 Exclusion Reason: There are already plenty of booking and trip planning websites like Expedia out there already. It's well known by lots of users already, and picking this problem to solve might result in an Expedia similar clone.
 
-- Problem 2: There are still many things booking or trip planning websites don't have like cultural norms information, currency exchange, wait times, rush seasons, visa requirements, SIM card prep, and many additional actions a traveler would need beyond booking and planning. Such information requires even more time to research and prepare for trip smoothness and safety.
+## Problem 2:
+There are still many things booking or trip planning websites don't have like cultural norms information, currency exchange, wait times, rush seasons, visa requirements, SIM card prep, and many additional actions a traveler would need beyond booking and planning. Such information requires even more time to research and prepare for trip smoothness and safety.
 
-Inclusion Reason: This problem is applicable to many, widespread enough, likely to be solved with data collection, and could be really helpful if project is completed.The preparation part of traveling are less talked about and this project might be helpful for beginner travelers.
+<mark>Inclusion Reason:</mark> This problem is applicable to many, widespread enough, likely to be solved with data collection, and could be really helpful if project is completed.The preparation part of traveling are less talked about and this project might be helpful for beginner travelers.
 
-Stakeholders:
+## Stakeholders:
 1. Direct/End Users: the travelers
 Travelers are usually stressed by the said problem and might lead to a frustrating vacation where money and time are wasted.
 
@@ -135,7 +143,7 @@ Potential partners can have limited information on those small important informa
 3. Regulators: Border Controls or custom authorities
 The lack of attention travelers have for visa/health/other requirements when traveling to another country, can add up the work for regulators. But it's not a really heavy influence since it's the regulators' job to begin with anyway.
 
-Evidence:
+## Evidence:
 1. [number of Americans who travel in 2024](https://www.statista.com/chart/31152/share-of-us-respondents-who-have-taken-private-trips/) In one year, about 71% of Americans travel at least once for private trips. Most people travels, showing the potential amount of users that might need this problem solved.
 
 2. [Survey on people's time and stress on trip planning](https://www.forbes.com/sites/rogersands/2025/01/17/americans-cite-overspending-as-top-vacation-challenge-survey-reveals/) People on average spend more than half of a day on travel planning, causing frustration, and thinking they are overspending.
@@ -156,27 +164,25 @@ Evidence:
 
 10. [Typical issues when traveling in another area](https://gatewayeduconnect.com/blog/5-issues-that-may-hinder-you-from-traveling-abroad-and-how-to-solve-them?utm_source=chatgpt.com) A list of travel precautions and potential issues one might have while traveling that includes everything mentioned in the problem above.
 
-Features:
- - Crowd Sourced Real-Time Conditions: Like how google map tracks real-time traffic with how much phones in one road, travelers can get to know if an attractions or just any location is flooded with people. This gives flexbility and ease the stress for travelers giving their full control of their trip.
+## Features:
+ - **Crowd Sourced Real-Time Conditions:** Like how google map tracks real-time traffic with how much phones in one road, travelers can get to know if an attractions or just any location is flooded with people. This gives flexbility and ease the stress for travelers giving their full control of their trip.
 
- - Trip Knowledge Share: Encourage users or even locals of locations to leave hacks/tips for other travelers that other booking or travel agents might not have. This not only helps future travelers, but also local businesses of the destination.
+ - **Trip Knowledge Share:** Encourage users or even locals of locations to leave hacks/tips for other travelers that other booking or travel agents might not have. This not only helps future travelers, but also local businesses of the destination.
 
- - Internation Travel Prep Assistant: Compiles all the documents, process, currency exchange locations, and the steps in order a traveler would have to do if wanting to travel over sea. This saves user time and complexity of needing to run here and there to get their visa or other safety requirements done.
+ - **Internation Travel Prep Assistant:** Compiles all the documents, process, currency exchange locations, and the steps in order a traveler would have to do if wanting to travel over sea. This saves user time and complexity of needing to run here and there to get their visa or other safety requirements done.
 
 
-- Problem 3: Photography is another essential to traveling as one of the prove that someone really traveled to there. The desire of getting a good shot during vacation or snapping a photo with the same pose and/or at the same place as someone are some reasons why one travel. However, some don't really know how to layout, angle their phone, or know when is the best time of a place to snap a photo to avoid rush hours.
+## Problem 3:
+Photography is another essential to traveling as one of the prove that someone really traveled to there. The desire of getting a good shot during vacation or snapping a photo with the same pose and/or at the same place as someone are some reasons why one travel. However, some don't really know how to layout, angle their phone, or know when is the best time of a place to snap a photo to avoid rush hours.
 
 Exlusion Reason: Users can easily search up pictures of the location on spot and just borrow other people's idea of photography. This feature might not be really needed since the problem is really that serious.
 
+6. **Ordering takeouts and eating out**
 
+7. **Hanging out with friends**
 
+8. **Driving**
 
-6. Ordering takeouts and eating out
+9. **Working Remotely**
 
-7. Hanging out with friends
-
-8. Driving
-
-9. Working Remotely
-
-10. Grocery Shopping
+10. **Grocery Shopping**
