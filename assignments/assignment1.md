@@ -59,9 +59,15 @@ Some parents are against their child gaming so much, and some players also reali
 
 Exclusion reason: Parents can setup screen time; for players who think they are too addicted, I feel like software isn't enough to remind and discpline them. This could mostly be more of a personal discpline problem or personal choice.
 
+---
+
 2. **Listening and singing to Music**
 
+---
+
 3. **Gunpla Modeling**
+
+---
 
 # 4. **Watching medias from different countries:**
 I'm into different medias produced by different countries, like c-drama,kpop, thai drama, japan shows, and anime. It's like a refresher to see and trying to understand culture differences. Due to copyrights, legal matters, or just promotional means, media resources are hard to acquire and understand. I often have to turn on vpns and browsing through different websites/platforms to find those media resources.
@@ -120,6 +126,8 @@ Creators themselves have limited sources/time to translate their work when they 
 There's multiple verisons of the same media depending on the area of the users. Medias in different country and platforms have their own set of rules that might result in cutting off some of the parts. Depending on the streaming platforms, some has bonus scenes or localized content.
 Exclusion Reason: The problem have to do with copyrights and the problem isn't serious enough or widespread enough. Most people can look for posts online that guides them where to access such medias.
 
+---
+
 # 5. **Traveling:**
 I mostly travel to places where I know someone who's a local there or for school/event purposes only. When I want to travel to somewhere new with my friends, none of us really want to do the planning because it's really a hassel to look through different resources to plan the different parts of the trip: hotel, transportation, food, tourist attraction, and local attraction. Traveling with friends would also mean having tons of conditions and finding common grounds where everyone agrees on. I would love to travel more to new places without spending unreasonable prices and having to spend hours on searching/planning. Experiencing new things, even if challenges, are part of the traveling experience to me when traveling overseas.
 
@@ -177,12 +185,22 @@ Photography is another essential to traveling as one of the prove that someone r
 
 Exlusion Reason: Users can easily search up pictures of the location on spot and just borrow other people's idea of photography. This feature might not be really needed since the problem is really that serious.
 
+---
+
 6. **Ordering takeouts and eating out**
+
+---
 
 7. **Hanging out with friends**
 
+---
+
 8. **Driving**
 
+---
+
 9. **Working Remotely**
+
+---
 
 10. **Grocery Shopping**
