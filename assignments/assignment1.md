@@ -1,7 +1,7 @@
 # Assignment 1
 ## Domains:
 
-1. **Gaming:**
+# 1. **Gaming:**
 I like gaming in both PC and mobile wise, sometimes with a controller. I've played many different types of games like MOBA, gacha, singleplayer open world, multiplayer, and etc. Some games need to be purchased and some are free but with in-game purchases. The one-time purchase games usually cost a lot but have amazing graphics, and the free games are mostly setup to encourage and promoting in-gaming purchases. For games that has an ending or set plot, I'm not really into replaying it again. For multiplayer games that doesn't have an ending like league, it's addictive to play but only with friends.
 
 ## Problem 1:
