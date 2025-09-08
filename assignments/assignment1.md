@@ -1,14 +1,14 @@
 # Assignment 1
-# Domains:
+## Domains:
 
 1. **Gaming:** --- I like gaming in both PC and mobile wise, sometimes with a controller. I've played many different types of games like MOBA, gacha, singleplayer open world, multiplayer, and etc. Some games need to be purchased and some are free but with in-game purchases. The one-time purchase games usually cost a lot but have amazing graphics, and the free games are mostly setup to encourage and promoting in-gaming purchases. For games that has an ending or set plot, I'm not really into replaying it again. For multiplayer games that doesn't have an ending like league, it's addictive to play but only with friends.
 
 
-- Tracking Game Spent: Some games have in-game purchases and some players would make such purchases. I am also one of those money spending players for skins or characters. Most games that I've seen have weekly/monthly subscriptions, gacha (whether for characters/weapon/skins/etc), direct purchase, and etc. With game promotion, the desire of wanting things in game, and the lure of deals, it's hard to resist not spending anything for the game you love.
+- **Tracking Game Spent:** Some games have in-game purchases and some players would make such purchases. I am also one of those money spending players for skins or characters. Most games that I've seen have weekly/monthly subscriptions, gacha (whether for characters/weapon/skins/etc), direct purchase, and etc. With game promotion, the desire of wanting things in game, and the lure of deals, it's hard to resist not spending anything for the game you love.
 
-Reason for inclusion: I've never felt guilty until one day I calculated the total I spent for each game, and I want to keep reminding myself to fight against the desire of spending so much in a short time. I think plenty of players out there have the same issue that they aren't aware of much they had spent on gaming, especially if it's purchases over time. I think creating a software that reads the data on user's device to help remind them to think more or longer before making the purchase would help them rearrange their money allocation a little better.
+<mark>Reason for inclusion:</mark> I've never felt guilty until one day I calculated the total I spent for each game, and I want to keep reminding myself to fight against the desire of spending so much in a short time. I think plenty of players out there have the same issue that they aren't aware of much they had spent on gaming, especially if it's purchases over time. I think creating a software that reads the data on user's device to help remind them to think more or longer before making the purchase would help them rearrange their money allocation a little better.
 
-Stakeholders:
+## Stakeholders:
 1. Direct-users: The players of the game, whether they had spent money or not.
 Some of the spending players might end up spending more than they intented to for a game. Over time, it might develop to be a bad habit of those players. For players who haven't spent anything yet, the in-game purchase lure is still there as long as they play the game, which can potentially progress into something they don't expect.
 
@@ -18,7 +18,7 @@ The companies are the one profitting from in-game purchase or one-time game purc
 3. Payment Platforms: The transaction facilitators.
 The transaction facilitators are not really affected since they are responsible for secure transactions only.
 
-Evidence:
+## Evidences:
 
 1. (Avg Spending on Game)[https://www.fool.com/money/research/video-game-spending-statistics/] The average gaming spend per household is $435, but that is under the assumption that there's one gamer per household. These might not seem a lot in a year but household with kids spend about double of that.
 
