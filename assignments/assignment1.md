@@ -1,7 +1,11 @@
 # Assignment 1
 ## Domains:
 
-1. **Gaming:** --- I like gaming in both PC and mobile wise, sometimes with a controller. I've played many different types of games like MOBA, gacha, singleplayer open world, multiplayer, and etc. Some games need to be purchased and some are free but with in-game purchases. The one-time purchase games usually cost a lot but have amazing graphics, and the free games are mostly setup to encourage and promoting in-gaming purchases. For games that has an ending or set plot, I'm not really into replaying it again. For multiplayer games that doesn't have an ending like league, it's addictive to play but only with friends.
+1. **Gaming:**
+
+***
+
+I like gaming in both PC and mobile wise, sometimes with a controller. I've played many different types of games like MOBA, gacha, singleplayer open world, multiplayer, and etc. Some games need to be purchased and some are free but with in-game purchases. The one-time purchase games usually cost a lot but have amazing graphics, and the free games are mostly setup to encourage and promoting in-gaming purchases. For games that has an ending or set plot, I'm not really into replaying it again. For multiplayer games that doesn't have an ending like league, it's addictive to play but only with friends.
 
 
 - **Tracking Game Spent:** Some games have in-game purchases and some players would make such purchases. I am also one of those money spending players for skins or characters. Most games that I've seen have weekly/monthly subscriptions, gacha (whether for characters/weapon/skins/etc), direct purchase, and etc. With game promotion, the desire of wanting things in game, and the lure of deals, it's hard to resist not spending anything for the game you love.
