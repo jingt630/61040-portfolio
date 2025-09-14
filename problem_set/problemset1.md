@@ -25,26 +25,27 @@ The second invariant is number of original requested count minus the total purch
 
 ## Exercise 2
 
-1. set of Users with
+1. set of Users with:
     username (String)
     password (String)
-    <p style="color:blue;">confirm flag</p>
-     <p style="color:blue;">token (Secret)</p>
-2. register (username: String, password: String): (user: User,  <p style="color:blue;">token: Secret</p>)
+    ==confirm flag==
+    ==token (Secret)==
+
+2. register (username: String, password: String): (user: User, ==token: Secret==)
 require: unique username from the set of User info in our system
-effect: create an user with the username and password, <p style="color:blue;"> confirm = false, and a unique secret token</p>
+effect: create an user with the username and password, ==confirm = false, and a unique secret token==
 
 authenticate (username: String, password: String): (user: User)
-require: an user exists with the username and password combo, <p style="color:blue;"> and the confirm status is true</p>
+require: an user exists with the username and password combo, ==and the confirm status is true==
 effect: return the corresponding user from our system
 
- <p style="color:blue;">confirm (user: User, token:Secret)
+==confirm (user: User, token:Secret)
  require: the user is existing, the confirmation flag of user is false, and has token.
- effect: change confirm flag to true for the user</p>
+ effect: change confirm flag to true for the user==
 
 3. An invariant would be the usernames in the set of Users are all unique from each other. This is preserved by the precondition requirement that one must register with an username not in our systems of users.
 
-4. See above changes in blue
+4. See above changes in highlight
 
 
 ## Exercise 3
@@ -211,7 +212,7 @@ Set of users:
 
 **State**
 
-set of shortLink
+set of shortLink:
 
     longURL (link)
 
