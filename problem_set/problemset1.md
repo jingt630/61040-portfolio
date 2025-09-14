@@ -26,26 +26,30 @@ The second invariant is number of original requested count minus the total purch
 ## Exercise 2
 
 1. set of Users with:
-    username (String)
-    password (String)
-    ==confirm flag==
-    ==token (Secret)==
 
-2. register (username: String, password: String): (user: User, ==token: Secret==)
+    username (String)
+
+    password (String)
+
+    ***confirm flag***
+
+    ***token (Secret)***
+
+2. register (username: String, password: String): (user: User, ***token: Secret***)
 require: unique username from the set of User info in our system
-effect: create an user with the username and password, ==confirm = false, and a unique secret token==
+effect: create an user with the username and password, ***confirm = false, and a unique secret token***
 
 authenticate (username: String, password: String): (user: User)
-require: an user exists with the username and password combo, ==and the confirm status is true==
+require: an user exists with the username and password combo, ***and the confirm status is true***
 effect: return the corresponding user from our system
 
-==confirm (user: User, token:Secret)
+***confirm (user: User, token:Secret)
  require: the user is existing, the confirmation flag of user is false, and has token.
- effect: change confirm flag to true for the user==
+ effect: change confirm flag to true for the user***
 
 3. An invariant would be the usernames in the set of Users are all unique from each other. This is preserved by the precondition requirement that one must register with an username not in our systems of users.
 
-4. See above changes in highlight
+4. See above changes in italized bold
 
 
 ## Exercise 3
