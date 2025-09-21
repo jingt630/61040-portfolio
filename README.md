@@ -12,4 +12,5 @@ This will be your portfolio repository. Use this as a [template repository](http
 [Link to Assignment 1](assignments/assignment1.md)
 
 ## Problem Sets:
-[Link to Problem Set 1](problem_set/problemset1.md)
+1. [Link to Problem Set 1](problem_set/problemset1.md)
+2. [Link to Problem Set 2](problem_set/problemset2.md)
