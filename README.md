@@ -10,6 +10,8 @@ This will be your portfolio repository. Use this as a [template repository](http
 # Table of Contents
 ## Assigments:
 [Link to Assignment 1](assignments/assignment1.md)
+[Link to Assignment 2](assignments/assignment2.md)
+
 
 ## Problem Sets:
 1. [Link to Problem Set 1](problem_set/problemset1.md)

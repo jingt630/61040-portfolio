@@ -77,7 +77,7 @@ Medias from different countries air at different platforms which may or may not 
 
 Exclusion Reason: Solving this would result in piracy and copyrights issues. The media companies setup those boundaries for their own protection and commerical reasons.
 
-## Problue 2:
+## Problem 2:
 **Auto Translate and Re-edit:** When we are consuming medias in other languages, some of them are raw (not translated). People might be interested in wanting to fully understand the video besides from just visual cues. Even if we can conviently copy and paste directly into a translator, there are jokes, traditions, or idioms that people from other cultures won't understand. This would require some background knowledge or researching apart from direct translation. When media throw in these jokes, it would also mess up the translation from translators like google translator.
 
 <mark>Inclusion Reason:</mark> This seems like a promising problem that could be solve with AI text recognition to help with translation and culture explanation to speed up translation team productions. Text translation can be easily done, but now it's more about images and videos translation where more work and coordination are needed.
