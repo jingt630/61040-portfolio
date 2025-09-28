@@ -75,20 +75,20 @@ a set of MediaFiles with
 **Actions**
 
 upload(file: File, type: String, name: String, filePath: String): (media: MediaFile)
-require: The type actually reflects the uploaded file's type. Filename has to be unique if in the same folder.
-effect: create a new MediaFile entry with name located in filePath, but the same content as file in translatedVersion, since it hasn't been translated yet.
+**require:** The type actually reflects the uploaded file's type. Filename has to be unique if in the same folder.
+**effect:** create a new MediaFile entry with name located in filePath, but the same content as file in translatedVersion, since it hasn't been translated yet.
 
 delete(media: MediaFile)
-require: media exists
-effect: remove media from storage
+**require:** media exists
+**effect:** remove media from storage
 
 move(media: MediaFile, filePath: String)
-require: media exists, filePath exists
-effect: store media in the folder specify by filePath
+**require:** media exists, filePath exists
+**effect:** store media in the folder specify by filePath
 
 createFolder(name: String)
-require: None
-effect: create a folder in the system, basically a new available filePath for the user to upload their media
+**require:** None
+**effect:** create a folder in the system, basically a new available filePath for the user to upload their media
 
 ### Concept 2
 
@@ -108,8 +108,8 @@ a set of ExtractionResults with
 **Actions**
 
 extract(media:MediaFile): (result: ExtractionResult)
-require: media exists
-effect: create new ExtractionResults that is associated with the media
+**require:** media exists
+**effect:** create new ExtractionResults that is associated with the media
 [^1]: Depending on if it's flat media or video, use coordinates or timestamp
 
 ### Concept 3
@@ -131,12 +131,12 @@ a set of Translations with
 **actions**
 
 createTranslation(result: ExtractionResult, targetLanguage: String): (translation:Translation)
-require: result exists, targetLanguage is a real language
-effect generate a translation linked to the ExtractionResult
+**require:** result exists, targetLanguage is a real language
+**effect:** generate a translation linked to the ExtractionResult
 
 edit(translation: Translation, newText:String)
-require: translation exist
-effect: change the translatedText in translation to newText
+**require:** translation exist
+**effect:** change the translatedText in translation to newText
 
 ### Concept 4
 
@@ -156,12 +156,12 @@ a set of OutputVersion with
 **Actions**
 
 render(translation:Translation):(output:OutputVersion)
-require: translation exist
-effect: generate a rendered output with translations embedded in the positions of the associated MediaFile described by the data stored in the ExtractionResult for each translation
+**require:** translation exist
+**effect:** generate a rendered output with translations embedded in the positions of the associated MediaFile described by the data stored in the ExtractionResult for each translation
 
 export(output: OutputVersion, destination: String, type: String): (file: File)
-require: output exists, destination exists in the device of the user, type is reasonable (example: png to jpg)
-effect: save or download output in the chosen type to the destination on the user's device
+**require:** output exists, destination exists in the device of the user, type is reasonable (example: png to jpg)
+**effect:** save or download output in the chosen type to the destination on the user's device
 
 ## Synchronizations
 
