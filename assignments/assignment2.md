@@ -33,7 +33,9 @@ With the internet and streaming services these days, people can watch videos in 
 ## Application Pitch
 
 **TEPKonjac**
+
 **Motivation:** Translate the media accurately and re-edit it to reflect on subtitles or text with AI.
+
 **Key Features**
 1. Media Upload - Users can freely upload their media into the the app.
 *Why it helps:* makes it easy and free for the users to use, people can just drop the file they want to be translated
@@ -55,11 +57,14 @@ THE FOLLOWING ARE CONCEPTS NOT FEATURES
 
 ### Concept 1
 **Concept:** MediaManagement
+
 **Purpose:** Storage management for media files the user uploaded.
+
 **Principle** User can upload a media file with its type to a filePath in the system. The file can be deleted, moved to other folders. When the file gets translated, the context the AI learned from it will also be associated with the media.
 
 **State**
 a set of MediaFiles with
+
     - a filename (String)
     - filePath (String)
     - mediaType (String)
@@ -69,88 +74,131 @@ a set of MediaFiles with
 
 **Actions**
 upload(file: File, type: String, name: String, filePath: String): (media: MediaFile)
+
 require: The type actually reflects the uploaded file's type. Filename has to be unique if in the same folder.
+
 effect: create a new MediaFile entry with name located in filePath, but the same content as file in translatedVersion, since it hasn't been translated yet.
 
 delete(media: MediaFile)
+
 require: media exists
+
 effect: remove media from storage
 
 move(media: MediaFile, filePath: String)
+
 require: media exists, filePath exists
+
 effect: store media in the folder specify by filePath
 
 createFolder(name: String)
+
 require: None
+
 effect: create a folder in the system, basically a new available filePath for the user to upload their media
 
 ### Concept 2
+
 **Concept** TextExtraction [MediaFile]
+
 **Purpose** Extract text from uploaded media for the AI to learn and translate
+
 **Principle** Given a MediaFile, AI would run extraction to recognize text within the media, and produce a transcript with metadata for the media. One media can have many ExtractionResults.
+
 **State**
 a set of ExtractionResults with
+
     - source (MediaFile)
     - extractedText (String)
     - position (Coordinates/Timestamp)[^1]
 
 **Actions**
 extract(media:MediaFile): (result: ExtractionResult)
+
 require: media exists
+
 effect: create new ExtractionResults that is associated with the media
 [^1]: Depending on if it's flat media or video, use coordinates or timestamp
 
 ### Concept 3
+
 **Concept** Translation[TextExtraction]
+
 **Purpose** Provide AI-assisted draft translation, which can later be refined by the user.
+
 **Principle** When the AI extracts the text from the media, it translates to the target language the user selected. The user can re-edit the translation if they want to.
+
 **State**
+
 a set of Translations with
+
     - source (ExtractionResult)
     - targetLanguage (String)
     - translatedText (String)
 
 **actions**
+
 createTranslation(result: ExtractionResult, targetLanguage: String): (translation:Translation)
+
 require: result exists, targetLanguage is a real language
+
 effect generate a translation linked to the ExtractionResult
 
 edit(translation: Translation, newText:String)
+
 require: translation exist
+
 effect: change the translatedText in translation to newText
 
 ### Concept 4
+
 **Concept** OutputRender[MediaFile]
+
 **Purpose** Re-render translated content back into the media, such as subtitles for videos or redrawn text in images.
+
 **Principle** Given a MediaFile and its translations, the system generates output versions.
+
 **State**
+
 a set of OutputVersion with
+
     - base (MediaFile)
     - translation (Translations)
 
 **Actions**
 render(translation:Translation):(output:OutputVersion)
+
 require: translation exist
+
 effect: generate a rendered output with translations embedded in the positions of the associated MediaFile described by the data stored in the ExtractionResult for each translation
 
 export(output: OutputVersion, destination: String, type: String): (file: File)
+
 require: output exists, destination exists in the device of the user, type is reasonable (example: png to jpg)
+
 effect: save or download output in the chosen type to the destination on the user's device
 
 ## Synchronizations
 
 **sync**extract
+
 **when**MediaManagement.upload(): (MediaFile)
+
 **then** TextExtraction.extract(MediaFile): (ExtractionResult)
 
 **sync**createTranslation
+
 **when** TextExtraction.extract(): (ExtractionResult)
+
 **then** Translation.createTranslation(ExtractionResult): (Translation)
 
 **sync**render
+
 **when**
+
 Translation.createTranslation():(Translation)
 Translation.edit(Translation)
+
 **then** OutputRender.render(translation): (output: Output Version)
 
 ### Brief Note
@@ -167,7 +215,7 @@ MediaFile Edit Page for Video
 
 
 ## User Journey
-Let user be call Emi. Also for ethical problem, the webtoon is copyright free, and Emi doesn't share it publicly.
+*Let user be call Emi. Also for ethical problem, the webtoon is copyright free, and Emi doesn't share it publicly.*
 
 Emi found the webtoon, "Bloodline" (this is made up title), she likes so much just updated its newest chapter in the korean website it's publishing in. The artist didn't choose to collaborate with other publisher to get their work translated.
 
@@ -175,4 +223,4 @@ So the entire chapter is in Korean, and so she took a long screenshot of the cha
 
 Emi is looking over the translated verison and saw the app had translated a word to 'consort Yoo', but she been reading so much other historical webtoons and think the word concubine suits better based on what she had been reading. So she edited the translated verison by clicking on the marker location (blue circles in the img edit page sketch) for this caption and saved her edit. After saving her edit, it's immediately reflected on the translated image again.
 
-After reading the translated image inside the app, she wants save the chapter locally to reread in a cleaner verison with no distraction, while waiting for the next chapter to come out. So she decides to export the editable version image that is not in jpg format, to jpg format and store it in her downloads folder of her device.
+After reading the translated image inside the app, she wants save the chapter locally to reread in a cleaner verison with no distraction, while waiting for the next chapter to come out. So she decides to export the editable version image that is not in jpg format, to jpg format and store it in her downloads folder of her device. Now Emi has a translated version of the latest Korean webtoon in her hand within some minutes after the webtoon was released.

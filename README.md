@@ -9,8 +9,8 @@ This will be your portfolio repository. Use this as a [template repository](http
 [Link to my favorite cartoon character: Momonga from Chiikawa](https://chiikawa.fandom.com/wiki/Momonga)
 # Table of Contents
 ## Assigments:
-[Link to Assignment 1](assignments/assignment1.md)
-[Link to Assignment 2](assignments/assignment2.md)
+1. [Link to Assignment 1](assignments/assignment1.md)
+2. [Link to Assignment 2](assignments/assignment2.md)
 
 
 ## Problem Sets:
