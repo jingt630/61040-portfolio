@@ -165,19 +165,26 @@ export(output: OutputVersion, destination: String, type: String): (file: File)
 
 ## Synchronizations
 
-**sync**extract
+**sync** extract
+
 **when**MediaManagement.upload(): (MediaFile)
+
 **then** TextExtraction.extract(MediaFile): (ExtractionResult)
 
-**sync**createTranslation
+**sync** createTranslation
+
 **when** TextExtraction.extract(): (ExtractionResult)
+
 **then** Translation.createTranslation(ExtractionResult): (Translation)
 
-**sync**render
+**sync** render
+
 **when**
+
 Translation.createTranslation():(Translation)
 
 Translation.edit(Translation)
+
 **then** OutputRender.render(translation): (output: Output Version)
 
 ### Brief Note
