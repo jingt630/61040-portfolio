@@ -11,6 +11,7 @@ This will be your portfolio repository. Use this as a [template repository](http
 ## Assigments:
 1. [Link to Assignment 1](assignments/assignment1.md)
 2. [Link to Assignment 2](assignments/assignment2.md)
+3. [Link to Assignment 3](https://github.com/jingt630/TEPKonjac_Assignment3)
 
 
 ## Problem Sets:
