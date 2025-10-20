@@ -12,8 +12,8 @@ This will be your portfolio repository. Use this as a [template repository](http
 1. [Link to Assignment 1](assignments/assignment1.md)
 2. [Link to Assignment 2](assignments/assignment2.md)
 3. [Link to Assignment 3](https://github.com/jingt630/TEPKonjac_Assignment3)
-
-
+4. [Link to Assignment 4](assignments\assignment4a)
+*I cloned from another repo of my to the assignment after I realize the form ask for it to be an assignment in the portfolio. Here is the actual repo [link](https://github.com/jingt630/concept_backend)*
 ## Problem Sets:
 1. [Link to Problem Set 1](problem_set/problemset1.md)
 2. [Link to Problem Set 2](problem_set/problemset2.md)
